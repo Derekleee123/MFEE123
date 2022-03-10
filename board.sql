@@ -68,4 +68,3 @@ create table board_likes_comment(
     foreign key (comment_id) references board_comments(id)
 );
 
-
